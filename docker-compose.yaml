@@ -1,0 +1,16 @@
+
+version: '3'
+
+services:
+
+  backend:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: jarmi/test
+    environment:
+      - FLASK_ENV=development
+    volumes:
+      - ./src/:/app
+    ports:
+      - 5000:5000
