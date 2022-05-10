@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        ARTIFACT_ID = "cappie10/Lab_devops:${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
+        ARTIFACT_ID = "cappie10/Lab_devopsjr:${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
     }
 
     stages {
