@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        ARTIFACT_ID = "luisito666/m2-api-rest:${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
+        ARTIFACT_ID = "cappie10/Lab_devops:${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
     }
 
     stages {
